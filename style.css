@@ -5,13 +5,19 @@
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('bg-desktop.webp');
     font-family: Bai Jamjuree;
 }
 
 #container {
-    display: flex; 
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
 }
+
+
 
 .cartao {
     margin: 1rem 1rem;
